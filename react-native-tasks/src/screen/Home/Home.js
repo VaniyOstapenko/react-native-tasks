@@ -10,6 +10,10 @@ function Home({ navigation }) {
             <Text onPress={() => navigation.navigate('Task4')}>Перейти к 4 задаче</Text>
             <Text onPress={() => navigation.navigate('Task5')}>Перейти к 5 задаче</Text>
             <Text onPress={() => navigation.navigate('Task6')}>Перейти к 6 задаче</Text>
+            <Text onPress={() => navigation.navigate('Task7')}>Перейти к 7 задаче</Text>
+            <Text onPress={() => navigation.navigate('Task8')}>Перейти к 8 задаче</Text>
+            <Text onPress={() => navigation.navigate('Task9')}>Перейти к 9 задаче</Text>
+            <Text onPress={() => navigation.navigate('Task10')}>Перейти к 10 задаче</Text>
         </>
     );
 }
